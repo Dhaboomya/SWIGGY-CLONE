@@ -1,0 +1,170 @@
+.logo {
+  background-color: rgb(40, 248, 103); /* Orange background */
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+}
+
+
+
+
+
+.header{
+  padding :20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid;
+  border-radius: 1%;
+}
+nav{
+  display:flex;
+  align-items: center;
+  gap:30px;
+  color: #070707;
+}
+.restaurant-container{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.restaurant-card{
+  width:300px;
+  padding:10px;
+  border:1px solid;
+}
+
+.restaurant-card img{
+  width:100%;
+  height:200px;
+  object-fit:cover;
+}
+tailwind.css
+
+.bg-gray-800 {
+  background-color: #2c3e50;
+}
+
+.text-white {
+  color: #070707;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.hover\:text-gray-300:hover {
+  color: #bdc3c7;
+}
+
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  margin-right: 1rem;
+}
+
+
+/* index.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background: linear-gradient(45deg, rgb(37, 248, 47), #fff); /* Orange and white gradient */
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.header-logo {
+  background-color: #fff; /* White background for the logo box */
+  padding: 10px; /* Adjust padding as needed */
+  border-radius: 5px; /* Rounded corners for the logo box */
+  display: inline-block; /* Ensure inline block to contain the image */
+}
+
+.header-logo img {
+  width: 50px; /* Set the width of the image */
+  height: auto; /* Maintain aspect ratio */
+}
+
+nav {
+  background-color: rgb(85, 247, 71); /* Orange background */
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+  border-radius: 5px; /* Rounded corners for each link */
+}
+
+nav a:not(:last-child) {
+  border-right: 1px solid #fff; /* White line between links */
+}
+
+nav a:hover {
+  color: rgb(85, 248, 63); /* Orange text on hover */
+  background-color: #fff; /* White background on hover */
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.main-content {
+  padding: 2rem;
+}
+
+.footer {
+  background-color: rgb(93, 250, 62); /* Orange background for the footer */
+  padding: 1rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px; /* Rounded corners */
+}
+
+.category-container{
+  margin: 10px;
+  padding: 15px;
+  width: 700px;
+  text-align:justify;
+  background-color: rgb(250, 189, 232);
+  margin-left: 20%;
+  line-height:30px;
+}
